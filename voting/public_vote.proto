@@ -11,8 +11,6 @@ service PublicVoteService{
     rpc Create(CreatePublicVoteReq) returns(Void){}
     rpc GetById(ById) returns(GetPublicVoteRes){}
     rpc GetAll(Filter) returns(GetAllPublicVoteRes){}
-    rpc Update(GetPublicVoteRes) returns(Void){}
-    rpc Delete(ById) returns(Void){}
     rpc GetVote(ById) returns(GetVoteById){}
     rpc GetVotes(Filter) returns(GetAllVotes){}
 }
